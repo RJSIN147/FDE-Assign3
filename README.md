@@ -10,6 +10,8 @@ The whole thing is built around one split from the brief:
 
 I built the two architectures the brief asks for, a single agent (A) and a staged analyst -> reviewer pipeline (B). I ran both on the same 17 cases, and the [decision memo](docs/decision_memo.md) explains which one I'd ship.
 
+**Demo:** [`demo/demo.mp4`](demo/demo.mp4) (5:19, narrated, with an embedded caption track). Recorded live against Groq, with the free-tier rate-limit waits cut out.
+
 ## Quick start
 
 Python 3.11+.
@@ -202,4 +204,5 @@ docs/
   architecture.md       diagrams, tools, guardrail, assumptions
   decision_memo.md      which architecture I'd ship (<= 500 words)
 tests/                  unit tests (rules, tools, guardrail, agent loop with a fake LLM)
+demo/                   demo video
 ```
